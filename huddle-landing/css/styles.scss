@@ -1,0 +1,352 @@
+// Global
+:root {
+      --pink: hsl(322, 100%, 66%);
+      --paleCyan: hsl(193, 100%, 96%);
+      --darkCyan: hsl(192, 100%, 9%);
+      --greyishBlue: hsl(208, 11%, 55%);
+      --almostWhite: rgba(255, 255, 255, 0.8);
+      --auto-grid-min-size: 16rem;
+}
+body {
+      font-size: 18px;
+      font-family: 'Open Sans', sans-serif;
+      margin: 0;
+}
+*, :before, :after {
+      box-sizing: border-box;
+}
+.container {
+      padding: 100px 70px;
+      position: relative;
+}
+.responsive-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(var(--auto-grid-min-size), 1fr));
+      grid-gap: 1rem;
+}
+h2 {
+      font-family: 'Poppins', sans-serif;
+      color: var(--darkCyan)
+}
+.wrapper {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 90%;
+      margin: 0 auto;
+}
+// Boxes
+.box {
+      --box-grid-min-size: 17rem;      
+      box-shadow: 1px 1px 10px hsla(208, 11%, 55%, 0.2);
+      border-radius: 15px;
+      margin: 15px auto;
+      padding: 3em 4em;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(var(--box-grid-min-size), 1fr));
+      gap: 5rem;
+      p {
+            color: var(--greyishBlue);            
+      }
+      img {
+            width: 100%;
+      }
+      &:nth-of-type(2) {
+            .text {
+                  order: 2;
+            }
+            .image {
+                  order: 1;
+            }
+      }
+}
+// Popup Box
+.popup {
+      display: flex;
+      flex-direction: column;
+      width: 50%;
+      text-align: center;
+      background-color: white;
+      position: absolute;
+      z-index: 2;
+      top: 7%;
+      left: 50%;
+      margin-left: -25%;
+      .btn {
+            align-self: center;
+      }
+}
+.btn {
+      text-decoration: none;      
+      padding: 1.5em 5em;
+      text-align: center;      
+      border-radius: 35px;
+      box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+      font-weight: 700;
+      font-size: 13px;   
+      &:hover {
+            opacity: 0.8;
+      }   
+      &.start {
+            background-color: var(--pink);
+            color: white;      
+      }
+      &.try {
+            background-color: white;
+            color: var(--darkCyan);
+      }
+}
+// Header
+header {     
+      width: 100%;
+      .container {
+            padding: 30px 35px;
+            width: 100%;
+            background: url("../images/bg-hero-desktop.svg");
+            background-size: cover;
+            background-color: var(--paleCyan);
+            .header {
+                  display: flex;
+                  flex-wrap: wrap;
+                  // Top Header
+                  nav {
+                        width: 100%;
+                        display: flex;
+                        margin-bottom: 50px;
+                        .try {
+                              padding: 15px 40px;                              
+                              margin-left: auto;
+                              align-self: center;
+                        }                                                  
+                        img {                              
+                              align-self: center;
+                        }                                           
+                  }
+                  // Header Content
+                  > div {                        
+                        padding: 80px 0;
+                        .text { 
+                              display: flex;
+                              flex-wrap: wrap;
+                              h2 {                                    
+                                    line-height: 1.8;
+                                    font-size: 1.8em;
+                                    align-self: flex-end;
+                                    margin: 0;
+                              }
+                              p {
+                                    margin: 0;
+                                    width: 80%;
+                                    align-self: center;
+                              }                                                        
+                              .btn {
+                                    height: fit-content;
+                              }       
+                        }
+                        img {
+                              width: 100%;                                                           
+                        }     
+                  }
+            }
+      }
+}
+// Footer
+footer {
+      font-size: 0.8em;
+      color: var(--almostWhite);
+      .container {
+            background-color: var(--darkCyan);
+            grid-template-columns: 1fr;
+            padding-bottom: 0;
+            .logo-footer {
+                  margin-top: 70px;
+            }
+            .wrapper {
+                  flex-direction: row;
+                  width: 100%;
+                  margin: 0;
+                  // Lists               
+                  ul {  
+                        padding-left: 0;   
+                        line-height: 1.5;                        
+                        &:first-of-type {
+                              // take small width
+                              flex: 3 0 0;
+                              li { 
+                                    // Adding Icons
+                                    padding-left: 30px;
+                                    position: relative;                              
+                                    &::before {
+                                          content: "";
+                                          position: absolute;
+                                          min-width: 30px;
+                                          min-height: 30px;
+                                          left: 0;
+                                          top: 4px; 
+                                    }
+                                    &:first-of-type::before {
+                                          background: url(../images/icon-location.svg)no-repeat;                                                                                  
+                                    }
+                                    &:nth-of-type(2)::before {
+                                          background: url(../images/icon-phone.svg)no-repeat;
+                                    }
+                                    &:last-of-type::before {
+                                          background: url(../images/icon-email.svg)no-repeat;
+                                    }                                    
+                              }
+                        }
+                        &:nth-of-type(2), &:nth-of-type(3), &:last-of-type {
+                              // take a larger width
+                              flex: 1.5 0 0;
+                        }                                   
+                        li {
+                              list-style: none;
+                              // For the Readability
+                              margin: 18px;
+                              a {
+                                    // Styling the Links
+                                    text-decoration: none;     
+                                    color: var(--almostWhite);
+                                    &:hover {
+                                          color: rgba(255, 255, 255, 0.6)
+                                    }                               
+                              }
+                        }
+                        // Social icons
+                        &.social {
+                              // Make it in one line
+                              display: flex;
+                              .icon-circle {
+                                    // Add border around the icons
+                                    border: 1px solid var(--almostWhite);
+                                    border-radius: 15px;
+                                    padding: 4px 7px;
+                              }
+                              li {
+                                    // Adding the same margin-top and bottom of the others list items and small margin between the social icons
+                                    margin: 20px 5px;
+                                    
+                              }
+                        }
+                  }
+            }
+            .copy {
+                  text-align: right;
+            }
+      }
+}
+// Responsive
+@media (max-width: 647px) {
+      .header {
+            .container {
+                  padding: 1em;
+            }
+            nav {
+                  img {
+                        width: 45%;
+                  }
+                  .try {
+                        padding: 0.8rem 1.9rem !important;
+                  }
+            }
+            p {                  
+                  margin: 15px 0;
+            }
+      }
+      .container {
+            padding: 7em 1em;
+      }
+      .text {
+            text-align: center;
+            justify-content: center;
+      }
+}
+// To not overflow on the small screens
+@media (max-width: 360px) {
+      :root {
+            --auto-grid-min-size: 10rem;
+      }
+}
+// Make it beauty on the smaller screens
+// decrease padding 
+@media (max-width: 561px) {
+      header .container {
+            background-image: url(../images/bg-hero-mobile.svg) no-repeat;
+      }
+      .box {
+            --box-grid-min-size: 12rem;
+            padding: 1em 2em
+      }
+      main .wrapper {
+            width: 100%;
+      }
+}
+@media (max-width: 750px) {
+      .popup {
+            width: 90%;
+            top: 60%;            
+            margin-left: -45%;
+      }
+      .box h2 {
+            font-size: 1.2em !important;
+      }
+}
+@media (max-width: 1053px) {
+      .header {
+            p {
+                  margin: 15px 0 !important;
+            }
+            .btn.start {
+                  margin: 20px 0 !important
+            }
+      }
+      article.box  {            
+            .text {
+                  text-align: center;
+                  order: 2
+            }
+            .image {
+                  order: 1;
+            }
+      }
+      .popup {
+            padding: 1em 2em;
+      }
+}
+
+@media (max-width: 768px) {
+      body {
+            font-size: 0.9em;
+      }
+      .header {
+            h2 {
+                  font-size: 1.4em !important;
+            }
+      }
+
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+      .popup {
+            width: 80%;
+            margin-left: -40%;
+            top: 47%;
+      }
+}
+@media (max-width: 700px) {
+      footer {
+            .responsive-grid {
+                  grid-gap: 0;
+            }
+            .wrapper {
+                  flex-direction: column !important;
+                  .social {
+                        justify-content: center;
+                        margin-top: 0
+                  }
+            }
+            .copy {
+                  text-align: center !important;
+                  margin-top: 0;
+            }
+      }
+}
