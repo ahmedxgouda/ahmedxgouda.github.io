@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "cfb5a9411b524d66f114c771af51e12e",
+    "revision": "f961052d8f64d4a8f6c34c3e2f94d3b2",
     "url": "/confusion-react/index.html"
   },
   {
