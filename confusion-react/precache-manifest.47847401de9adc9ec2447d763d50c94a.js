@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "5e7df4d65f8eb824b7d3bc3f5d28bdad",
+    "revision": "085cbb6fef3b17e5e44630154fd99a30",
     "url": "/confusion-react/index.html"
   },
   {
@@ -8,7 +8,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/confusion-react/static/css/2.3abb6e57.chunk.css"
   },
   {
-    "revision": "1b8b1235d1f715b39695",
+    "revision": "58cd88628cc9baf9e6e5",
     "url": "/confusion-react/static/css/main.e03eb87c.chunk.css"
   },
   {
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/confusion-react/static/js/2.3f452854.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "1b8b1235d1f715b39695",
-    "url": "/confusion-react/static/js/main.8e8dca1c.chunk.js"
+    "revision": "58cd88628cc9baf9e6e5",
+    "url": "/confusion-react/static/js/main.7dc401bc.chunk.js"
   },
   {
     "revision": "8747dd5462ab7931f564",
