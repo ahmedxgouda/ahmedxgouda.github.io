@@ -2,12 +2,12 @@
 
 ## My projects
 
-confusion: <https://ahmedxgooda.github.io/conFusion/>
+confusion: <https://ahmedxgouda.github.io/conFusion/>
 
-confusion-react: <https://ahmedxgooda.github.io/confusion-react/>
+confusion-react: <https://ahmedxgouda.github.io/confusion-react/>
 
-A website to test your typing skill: <https://ahmedxgooda.github.io/typing-speed-test/> 
+A website to test your typing skill: <https://ahmedxgouda.github.io/typing-speed-test/> 
 
-Huddle page: <https://ahmedxgooda.github.io/huddle-landing/>
+Huddle page: <https://ahmedxgouda.github.io/huddle-landing/>
 
-Four grids page: <https://ahmedxgoda.github.io/four-cards-section-master/>
+Four grids page: <https://ahmedxgouda.github.io/four-cards-section-master/>
