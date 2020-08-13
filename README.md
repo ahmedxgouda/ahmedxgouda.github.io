@@ -11,3 +11,5 @@ A website to test your typing skill: <https://ahmedxgouda.github.io/typing-speed
 Huddle page: <https://ahmedxgouda.github.io/huddle-landing/>
 
 Four grids page: <https://ahmedxgouda.github.io/four-cards-section-master/>
+
+A simple slider: <https://ahmedxgouda.github.io/simple-slider/>
