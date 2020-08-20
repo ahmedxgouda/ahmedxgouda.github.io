@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.866673cc.chunk.css",
-    "main.js": "/static/js/main.0b7dbc0a.chunk.js",
-    "main.js.map": "/static/js/main.0b7dbc0a.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ccf115f7.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ccf115f7.js.map",
-    "static/css/2.dcc89689.chunk.css": "/static/css/2.dcc89689.chunk.css",
-    "static/js/2.e9dd0837.chunk.js": "/static/js/2.e9dd0837.chunk.js",
-    "static/js/2.e9dd0837.chunk.js.map": "/static/js/2.e9dd0837.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.642eef6b4cb6d045f0dde2230648b410.js": "/precache-manifest.642eef6b4cb6d045f0dde2230648b410.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.dcc89689.chunk.css.map": "/static/css/2.dcc89689.chunk.css.map",
-    "static/css/main.866673cc.chunk.css.map": "/static/css/main.866673cc.chunk.css.map",
-    "static/js/2.e9dd0837.chunk.js.LICENSE.txt": "/static/js/2.e9dd0837.chunk.js.LICENSE.txt",
-    "static/media/all.min.css": "/static/media/fa-solid-900.ee09ad75.woff"
+    "main.css": "/job-listing/static/css/main.866673cc.chunk.css",
+    "main.js": "/job-listing/static/js/main.911aad6c.chunk.js",
+    "main.js.map": "/job-listing/static/js/main.911aad6c.chunk.js.map",
+    "runtime-main.js": "/job-listing/static/js/runtime-main.3f5338fb.js",
+    "runtime-main.js.map": "/job-listing/static/js/runtime-main.3f5338fb.js.map",
+    "static/css/2.67fa2020.chunk.css": "/job-listing/static/css/2.67fa2020.chunk.css",
+    "static/js/2.e9dd0837.chunk.js": "/job-listing/static/js/2.e9dd0837.chunk.js",
+    "static/js/2.e9dd0837.chunk.js.map": "/job-listing/static/js/2.e9dd0837.chunk.js.map",
+    "index.html": "/job-listing/index.html",
+    "precache-manifest.d77d88425ade26d6841faaa5286e2304.js": "/job-listing/precache-manifest.d77d88425ade26d6841faaa5286e2304.js",
+    "service-worker.js": "/job-listing/service-worker.js",
+    "static/css/2.67fa2020.chunk.css.map": "/job-listing/static/css/2.67fa2020.chunk.css.map",
+    "static/css/main.866673cc.chunk.css.map": "/job-listing/static/css/main.866673cc.chunk.css.map",
+    "static/js/2.e9dd0837.chunk.js.LICENSE.txt": "/job-listing/static/js/2.e9dd0837.chunk.js.LICENSE.txt",
+    "static/media/all.min.css": "/job-listing/static/media/fa-solid-900.ee09ad75.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.ccf115f7.js",
-    "static/css/2.dcc89689.chunk.css",
+    "static/js/runtime-main.3f5338fb.js",
+    "static/css/2.67fa2020.chunk.css",
     "static/js/2.e9dd0837.chunk.js",
     "static/css/main.866673cc.chunk.css",
-    "static/js/main.0b7dbc0a.chunk.js"
+    "static/js/main.911aad6c.chunk.js"
   ]
 }
