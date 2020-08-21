@@ -2,6 +2,8 @@
 
 ## My projects
 
+A website to view a list of jobs with filter option: <https://ahmedxgouda.github.io/job-listing/>
+
 confusion: <https://ahmedxgouda.github.io/conFusion/>
 
 confusion-react: <https://ahmedxgouda.github.io/confusion-react/>
