@@ -2,6 +2,8 @@
 
 ## My projects
 
+A website with details about all countries in the world: <https://ahmedxgouda.github.io/countries-details/>
+
 A website to view a list of jobs with filter option: <https://ahmedxgouda.github.io/job-listing/>
 
 confusion: <https://ahmedxgouda.github.io/conFusion/>
